@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title> Cuarto - Procale</title>
+        <link rel="stylesheet" href="a-princ-cua.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../j-instrucciones/a-instrucciones.css">
+
+        <style>
+            header {
+            background-color: #e5e5e5;
+            height: 20%;
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+            }
+        </style>
+    </head>
+
+
+    <body>
+    
+    <header class="Cabecera"
+    >
+        <nav>
+            
+            <ul>
+
+                <div class="logo-de-h">
+
+                    <a href="../b-home/home.html">
+                        <img src="../a-img/a-logos/isologo.png" alt="" height="100px">
+                    <i class="menu logo"></i> </a>
+
+                </div>
+
+                <div class="iconos-de-h">
+
+                    <a href="../b-home/home.html">
+                        <img src="../a-img/b-iconos-menu/i1.png" alt="" height="70px">
+                    <i class="icono1"> </i> </a>
+
+                    <a href="../b-home/home.html#enl-grados">
+                        <img src="../a-img/b-iconos-menu/i2.png" alt="" height="70px">
+                    <i class="icono2"></i></a>
+                  
+                  
+                    <a href="../c-perfil/login/login.html">
+                        <img src="../a-img/b-iconos-menu/i3.png" alt="" height="70px">
+                    <i class="icono3"> </i> </a>
+
+                </div>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+   
+<h1 style="margin-left: 35%; margin-right: 35%; justify-content: center; padding-top: 4%; padding-bottom: 3%;">Grado 4, ¿Qué harás hoy?</h1>
+
+
+<div class="botoness">
+
+    <a href="b-lec-seg.html">
+        <img src="../a-img/botones-opc/bot-lectura.png" alt="" width="55%" style="border-radius: 15px; margin: 5%, 5%, 5%, 5%;">
+    <i class="botoncito"> </i> </a>
+
+<br>
+
+    <a href="c-ev-seg.html">
+        <img src="../a-img/botones-opc/bot-evalua.png" alt="" width="55%" style="border-radius: 15px; margin: 5%, 5%, 5%, 5%;">
+    <i class="botoncito"> </i> </a>
+
+</div>
+
+
+<a id="abr-ins" class="btn-abr"><img src="../a-img/botones-opc/informacion.png" height="55px" style="margin-right: 3%;" alt=""></a>
+
+<script>
+    const btn= document.getElementById("btn-ins");
+    const btn2= document.getElementById("abr-ins")
+    const cerrar= function(){
+        document.getElementById("div-ins").style.display="none";
+    }
+    btn.addEventListener("click",cerrar)
+
+    const abrir= function(){
+        document.getElementById("div-ins").style.display="block";
+    }
+    btn2.addEventListener("click",abrir)
+
+</script>
+
+    </body>
+ 

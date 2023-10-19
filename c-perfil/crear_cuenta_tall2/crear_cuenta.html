@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear cuenta</title>
+    <link rel="stylesheet" href="crear_cuenta.css">
+</head>
+
+<body>
+    <div class="completar">
+
+
+        <h1>Crear cuenta</h1>
+
+
+        <form action="">
+
+
+            <br>
+            <label for="Nombre">Nombre(s):</label>
+            <input type="text"
+            placeholder="Ingrese su nombre"
+            id="Name"
+            autocomplete="off"
+            required>
+
+
+
+
+            <br>
+            <label for="Apellidos">Apellidos:</label>
+            <input type="text"
+            placeholder="Ingrese sus apellidos"
+            id="lastname"
+            autocomplete="off"
+            required>
+
+
+
+
+            <br>
+            <label for="Correo">Correo:</label>
+            <input type="text"
+            placeholder="Ingrese su correo"
+            id="mail"
+            autocomplete="off"
+            required>
+
+
+
+
+            <br>
+            <label for="Username">Nombre de usuario:</label>
+            <input type="text"
+            placeholder="Ingrese su nombre de usuario"
+            id="username"
+            autocomplete="off"
+            required>
+
+
+
+
+            <br>
+            <label for="Contraseña">Contraseña:</label>
+            <input type="text"
+            placeholder="Ingrese su contraseña"
+            id="password"
+            autocomplete="off"
+            required>
+
+
+
+
+            <br>
+            <label for="Nacionalidad">Seleccione su nacionalidad:</label>
+            <select id="Nacionalidad">
+                  <option> Colombia</option>
+                  <option> Ecuador</option>
+                  <option> Panamá</option>
+                  <option> Venezuela</option>
+                  <option> Otro</option>
+               
+
+
+                </select>
+
+
+
+
+
+
+<!-- genero -->
+
+        <fieldset>
+            <br>
+            <legend><label for="Genero">Género:</label> </legend>           
+            
+            <input type="radio" id="Gen1" name="Gen" value="masc">
+            <label for="masc"> Masculino</label><br>
+
+
+            <input type="radio" id="Gen2" name="Gen" value="fem">
+            <label for="fem"> Femenino</label><br>
+
+
+            <input type="radio" id="Gen3" name="Gen" value="Otro" checked>
+            <label for="Otro"> Otro / Prefiero no decirlo </label><br>
+
+        </fieldset>
+
+
+
+<!-- intereses -->
+
+
+            <br>
+
+         <fieldset>
+
+          
+            <legend><label for="intereses">Intereses:</label></legend>
+
+            <div class="musicca">
+                <input type="checkbox" id="musica" name="int1" value="musica">  
+                <label for="musica" id="musica">Musica</label> 
+            </div>
+
+
+             <div class="deportte">
+                <input type="checkbox" id="deporte" name="int2" value="deporte">
+                <label for="deporte" id="deporte">Deporte</label>
+            </div>
+
+             <div class="lecturra">   
+                <input type="checkbox" id="Lectura" name="int3" value="Lectura">
+                <label for="Lectura" id="Lectura">Lectura</label>
+            </div>
+
+             <div class="nada">   
+                <input type="checkbox" id="none" name="int4" value="none" checked>
+                <label for="none" id="nonee">Ninguno</label>
+            </div>
+
+        </fieldset>
+
+
+
+
+            <br>
+            <input type="reset" id="Botonreset" value="Limpiar">
+
+
+            <br>
+            <input type="submit" id="Botoncrear" value="Crear Cuenta">
+         
+
+
+            <br>    
+             <a href="login/login.html">Ya tengo una cuenta</a>
+         
+       
+
+
+
+
+
+
+        </form>
+
+
+    </div>
+
+
+
+
+</body>
+</html>
+

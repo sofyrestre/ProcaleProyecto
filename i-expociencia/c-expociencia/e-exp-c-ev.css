@@ -1,0 +1,190 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Shrikhand', cursive Georgia, 'Times New Roman', Times, serif
+}
+
+header 
+
+.cabecera {
+    background-color: #696969;
+    display: flex;
+}
+
+ul{ display: flex;
+justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.logo-de-h {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.iconos-de-h {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+body{
+    background-color: #e6eef0
+    ;
+
+}
+
+.evaluacion2{
+    width: 80%;
+   height: 42%;
+   margin-top: 2%;
+   background-color: #f5f6f6 ;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 20px;
+   box-shadow: 3px 3px 10px #030303;
+   flex-direction: column;
+   display: flex;
+   padding: 5%;
+margin-bottom: 3%;
+}
+
+.evaluacion2 h1 {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    color: #054ba8;
+    font-size: 280%;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.evaluacion2 form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+input[type=text],
+input[type=number] {
+    width: 75%;
+    height: 24%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-flexbox;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+
+.evaluacion2 form input[type= "text"],
+.evaluacion2 form input[type= "number"]::placeholder{
+      color: #797979;}
+
+
+.evaluacion2 form input[type= "text"],
+.evaluacion2 form input[type= "number"]:focus{
+          color: #054ba8;
+          border-color: #054ba8;
+      }      
+
+      label, h3 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: block;
+        font-size: 100%;
+    
+    }      
+
+.velocidad-lect {
+    display: flex;
+    flex-direction: row;
+width: 80%;
+justify-content: space-around;
+justify-content: center;
+
+}
+
+.pal-lec-div, .tie-lec-div {
+    padding-left:5%; padding-right: 5%;
+}
+
+
+
+h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #797979;
+    font-size: 60%;
+    font-style: oblique;
+}
+
+.opciones-rasgos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row
+
+
+}
+
+.opciones-comp{
+    display: flex;
+    justify-content: center;
+    flex-direction: row
+}
+
+h2 {    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    color: #054ba8;
+    font-size: 150%;
+    padding-bottom: 10px;
+
+}
+
+
+
+.evaluacion2 form input[type=button] {
+    width: 25%;
+    padding: 6px;
+    border-radius: 20px;
+    background-color: #054ba8;
+    border: none;
+    color: #cdcdcd;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-self: center;
+
+    }
+
+.evaluacion2 form input[type=button]:hover{
+    background-color: #629be7;
+    cursor: pointer;
+}
+
+.evaluacion2 form input[type=button]:active{
+    background-color: rgb(123, 123, 123);
+}
+
+.resultados-div {
+    width: 75%;
+    height: 42%;
+    margin-top: 2%;
+    background-color: #f5f6f6 ;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px #030303;
+    flex-direction: column;
+    display: none;
+    padding: 5%;
+ margin-bottom: 3%;
+opacity: 0;
+}
+
+p {    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    font-size: 150%;}

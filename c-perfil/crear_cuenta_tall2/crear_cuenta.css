@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+   }
+    
+
+body{
+    background-color: #e6eef0
+    ;
+
+}
+
+.completar{
+    width: 60%;
+    height: auto;
+   background-color: #f5f6f6 ;
+    margin-top: 5%;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 20px;
+   box-shadow: 3px 3px 10px #030303;
+   flex-direction: column;
+   display: flex;
+   padding: 5%;
+   margin-bottom: 5%;
+}
+
+
+h1 {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    color: #054ba8;
+    font-size: 48px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.completar {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+input[type=text] {
+    width: 12%;
+    height: 24%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-flexbox;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+
+
+
+.completar input[type= "text"]::placeholder {
+    color: #797979;
+}
+
+.completar input[type= "text"]:focus{
+    color: #797979;
+    border-color: #054ba8;
+}
+
+
+
+.completar input[type=text] {
+
+    width: 60%;
+    padding: 6px;
+    border-radius: 20px;
+    border: none;
+    color: #cdcdcd;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-self: center;
+    border-color: #054ba8;
+
+    }
+    
+  
+.completar input[type=submit]:hover
+.completar input[type=reset]:hover{
+    background-color: #629be7;
+    cursor: pointer;
+}
+
+.completar input[type=submit]:active
+.completar input[type=reset]:active{
+    background-color: rgb(123, 123, 123);
+}
+
+
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+
+}
+
+fieldset {
+    border: 1px solid #054ba8;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+fieldset legend {
+    padding: 12px;
+}
+
+

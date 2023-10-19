@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Shrikhand', cursive Georgia, 'Times New Roman', Times, serif
+}
+
+header 
+
+.cabecera {
+    background-color: #696969;
+    display: flex;
+}
+
+ul{ display: flex;
+justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.logo-de-h {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.iconos-de-h {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.icono1 {
+  padding: 15px;  
+}
+.icono2 {
+    padding: 15px;
+}
+.icono3 {
+    padding: 15px;  
+}
+
+
+body{
+    background-color: #e6eef0
+    ;;
+
+}
+
+
+
+h1 {
+    font-family: system-ui;
+    font-style: oblique;
+    color: #001126;
+    font-size: 150%;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+text-align: center;
+}
+
+
+.botoness {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+    flex-direction: column;
+
+}
