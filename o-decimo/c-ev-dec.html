@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación grado 2 - Procale</title>
+    <link rel="stylesheet" href="c-ev-seg.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+
+        <style>
+            header {
+            background-color: #e5e5e5;
+            height: 20%;
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+            }
+        </style>
+</head>
+<body>
+
+    <header class="Cabecera"
+    >
+        <nav>
+            
+            <ul>
+
+                <div class="logo-de-h">
+
+                    <a href="../b-home/home.html">
+                        <img src="../a-img/a-logos/isologo.png" alt="" height="100px">
+                    <i class="menulogo"></i> </a>
+
+                </div>
+
+                <div>
+
+                    <a href="a-princ-seg.html">
+                        <img src="../a-img/botones-opc/back.png" alt="" height="70px">
+                     <i class="back"></i></a>
+
+
+                </div>
+
+            </ul>
+
+        </nav>
+
+    </header>
+    
+    <div class="evaluacion2">
+        <h1>Evaluación lectura, grado 2</h1>
+        <form action="">
+
+            <label for="id">Documento del estudiante</label>
+             
+            <input
+            type="text"
+            placeholder="Ingrese el Documento de identidad"
+            id="id"
+            autocomplete="off"    
+            required>
+
+            <h4>Ingrese el número de documento sin puntos ni espacios</h4>
+
+            <br>
+
+            <label for="id">Nombre completo</label>
+             
+            <input
+            type="text"
+            placeholder="Nombre como aparece en el documento."
+            id="nombre"
+            autocomplete="off"    
+            required>
+
+         <br>
+         
+         
+            <div class="velocidad-lect">
+
+                <div class="tie-lec-div">
+
+                    <label for="id">Ingrese el tiempo de lectura</label>
+                    <h4>(en seg.)</h4>
+                    
+                    <input
+                    type="number"
+                    placeholder="Tiempo"
+                    id="tiempo"
+                    autocomplete="off"    
+                    required>
+
+                </div> 
+
+                <div class="pal-lec-div">
+
+                    <label for="id">Cuantas fueron las palabras leídas</label>
+                    
+                    <input
+                    type="number"
+                    placeholder="Palabras leídas"
+                    id="palabras"
+                    autocomplete="off"    
+                    required>
+
+                </div>    
+
+        </div>
+
+
+
+
+            <br>
+
+            <h2>Rasgos de lectura</h2>
+            <h4>¿Presenta el estudiante los siguientes rasgos de lectura?</h4>
+
+            <br>
+
+<!-- 1 -->
+
+            <h3>Omite palabras</h3>
+
+            <div class="opciones-rasgos">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="No">No</label>
+            <input type="radio" id="no1" name="omite" value="16,666666666666667">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="Poco">Poco </label>
+            <input type="radio" id="poco1" name="omite" value="10">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="Mucho">Mucho </label>
+            <input type="radio" id="mucho1" name="omite" value="0">
+
+            </div>
+
+            <br> <!-- 2 -->
+
+            <h3>Cambia palabras</h3>
+
+            <div class="opciones-rasgos">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="No">No</label>
+            <input type="radio" id="no2" name="cambia" value="16,666666666666667">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="Poco">Poco </label>
+            <input type="radio" id="poco2" name="cambia" value="10">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="Mucho">Mucho </label>
+            <input type="radio" id="mucho2" name="cambia" value="0">
+
+            </div>
+
+            <br> <!-- 3 -->
+
+            <h3>Anomalias en las pausas</h3>
+
+            <div class="opciones-rasgos">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="No">No</label>
+            <input type="radio" id="no3" name="pausas" value="16,666666666666667">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="Poco">Poco </label>
+            <input type="radio" id="poco3" name="pausas" value="10">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="Mucho">Mucho </label>
+            <input type="radio" id="mucho3" name="pausas" value="0">
+
+            </div>
+
+            <br> <!-- 4 -->
+
+            <h3>Anomalias de acento</h3>
+
+            <div class="opciones-rasgos">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="No">No</label>
+            <input type="radio" id="no4" name="acento" value="16,666666666666667">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="Poco">Poco </label>
+            <input type="radio" id="poco4" name="acento" value="10">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="Mucho">Mucho </label>
+            <input type="radio" id="mucho4" name="acento" value="0">
+
+            </div>
+
+            <br> <!-- 5 -->
+
+            <h3>Autocorrección</h3>
+
+            <div class="opciones-rasgos">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="No">No</label>
+            <input type="radio" id="no5" name="autocorrección" value="16,666666666666667">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="Poco">Poco </label>
+            <input type="radio" id="poco5" name="autocorrección" value="10">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="Mucho">Mucho </label>
+            <input type="radio" id="mucho5" name="autocorrección" value="0">
+
+            </div>
+
+            <br> <!-- 6 -->
+
+            <h3>Salto de lineas</h3>
+
+            <div class="opciones-rasgos">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="No">No</label>
+            <input type="radio" id="no6" name="lineas" value="16,666666666666667">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="Poco">Poco </label>
+            <input type="radio" id="poco6" name="lineas" value="10">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="Mucho">Mucho </label>
+            <input type="radio" id="mucho6" name="lineas" value="0">
+
+            </div>
+
+<br>
+<br>
+ 
+            <h2>Comprensión de lectura</h2>
+            <h4> Haga las siguientes preguntas para analizar la comprensión de lectura del estudiante</h4>
+
+            <br>
+
+<!-- 1 -->
+
+            <h3>¿Quién tiene una gata?</h3>
+            <h4>R: Maria</h4>
+
+            <div class="opciones-comp">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="Correcta">Correcta</label>
+            <input type="radio" id="Correcta1" name="P1" value="20">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="Incorrecta">Incorrecta </label>
+            <input type="radio" id="Incorrecta1" name="P1" value="0">
+
+            </div>
+
+
+            <br>
+
+<!-- 2 -->
+
+            <h3>¿A quién le gusta jugar y brincar?</h3>
+            <h4>R: A la gata de María</h4>
+
+            <div class="opciones-comp">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="Correcta">Correcta</label>
+            <input type="radio" id="Correcta2" name="P2" value="20">
+
+            <label style="padding-left: 3%; padding-right: 3%;" for="Incorrecta">Incorrecta </label>
+            <input type="radio" id="Incorrecta2" name="P2" value="0">
+
+            </div>
+
+
+
+            <br>
+
+<!-- 3 -->
+            
+             <h3>¿Qué le paso a la gata de María?</h3>
+            <h4>R: Se perdió, tuvo gatitos</h4>
+            
+            <div class="opciones-comp">
+
+             <label style="padding-left: 3%; padding-right: 3%;" for="Correcta">Correcta</label>
+             <input type="radio" id="Correcta3" name="P3" value="20">
+            
+            <label style="padding-left: 3%; padding-right: 3%;" for="Incorrecta">Incorrecta </label>
+            <input type="radio" id="Incorrecta3" name="P3" value="0">
+            
+            </div>
+
+            <br>
+
+<!-- 4  -->
+            
+           <h3>¿Dónde estaba la gata de María?</h3>
+           <h4>Debajo de la cama</h4>
+
+        <div class="opciones-comp">
+
+        <label style="padding-left: 3%; padding-right: 3%;" for="Correcta">Correcta</label>
+        <input type="radio" id="Correcta4" name="P4" value="20">
+
+        <label style="padding-left: 3%; padding-right: 3%;" for="Incorrecta">Incorrecta </label>
+        <input type="radio" id="Incorrecta4" name="P4" value="0">
+
+        </div>   
+        
+        <br>
+
+<!-- 5 -->
+            
+        <h3>¿Qué le dijo la mamá a María?</h3>
+        <h4>R: Va a tener un bebé, hermanito</h4>
+        
+        <div class="opciones-comp">
+
+         <label style="padding-left: 3%; padding-right: 3%;" for="Correcta">Correcta</label>
+         <input type="radio" id="Correcta5" name="P5" value="20">
+        
+        <label style="padding-left: 3%; padding-right: 3%;" for="Incorrecta">Incorrecta </label>
+        <input type="radio" id="Incorrecta5" name="P5" value="0">
+        
+        </div>
+
+<br>
+<br>
+
+
+        <input type="button" id="boton-rest"
+        value= "Ver resultados">
+
+
+        <div class="resultados-div">
+           
+            <h2 id="name-user"></h2>
+            <h3 id="id-user"></h3>
+
+        <p id="resultados"></p>
+        <p id="resultados2"></p>
+        <p id="resultados3"></p>
+        </div>  
+
+
+    </div>    
+
+
+<script>
+    
+    let boton=document.getElementById("boton-rest");
+
+
+
+    const escribir=function(){
+            const id= document.getElementById("id").value;
+
+            const name= document.getElementById("nombre").value;
+
+            const caja=document.querySelector(".resultados-div");
+
+            caja.style.opacity=1;
+
+            let h2= document.getElementById("name-user");
+            h2.innerHTML=name;
+
+            let h3= document.getElementById("id-user");
+            h3.innerHTML=id;
+
+    }
+   
+    const calcular=function(){
+        let tiempo=document.getElementById("tiempo").value;
+        let palabras=document.getElementById("palabras").value;
+
+        let velocidad= (palabras/tiempo)*60;
+        document.getElementById("resultados").innerHTML="La velocidad de lectura es "+velocidad+" ppm"
+
+    }
+
+    const calcular2=function(){
+        let omite=0;
+        if(document.getElementById("no1").checked){
+            omite=parseFloat( document.getElementById("no1").value);
+
+
+        }else if(document.getElementById("poco1").checked){
+            omite=parseFloat( document.getElementById("poco1").value);
+
+        }else if(document.getElementById("mucho1").checked){
+            omite=parseFloat( document.getElementById("mucho1").value);
+        }
+
+
+        let cambia=0;
+        if(document.getElementById("no2").checked){
+            cambia=parseFloat( document.getElementById("no2").value);
+
+        }else if(document.getElementById("poco2").checked){
+            cambia=parseFloat( document.getElementById("poco2").value);
+
+        }else if(document.getElementById("mucho2").checked){
+            cambia=parseFloat( document.getElementById("mucho2").value);
+        }
+
+
+        let pausas=0;
+        if(document.getElementById("no3").checked){
+            pausas=parseFloat( document.getElementById("no3").value);
+
+        }else if(document.getElementById("poco3").checked){
+            pausas=parseFloat( document.getElementById("poco3").value);
+
+        }else if(document.getElementById("mucho3").checked){
+            pausas=parseFloat( document.getElementById("mucho3").value);
+        }
+
+
+        let acento=0;
+        if(document.getElementById("no4").checked){
+            acento=parseFloat( document.getElementById("no4").value);
+
+        }else if(document.getElementById("poco4").checked){
+            acento=parseFloat( document.getElementById("poco4").value);
+
+        }else if(document.getElementById("mucho4").checked){
+            acento=parseFloat( document.getElementById("mucho4").value);
+        }
+
+
+        let autocorrección=0;
+        if(document.getElementById("no5").checked){
+            autocorrección=parseFloat( document.getElementById("no5").value);
+
+        }else if(document.getElementById("poco5").checked){
+            autocorrección=parseFloat( document.getElementById("poco5").value);
+
+        }else if(document.getElementById("mucho5").checked){
+            autocorrección=parseFloat( document.getElementById("mucho5").value);
+        }
+
+
+        let lineas=0;
+        if(document.getElementById("no6").checked){
+            lineas=parseFloat( document.getElementById("no6").value);
+
+        }else if(document.getElementById("poco6").checked){
+            lineas=parseFloat( document.getElementById("poco6").value);
+
+        }else if(document.getElementById("mucho6").checked){
+            lineas=parseFloat( document.getElementById("mucho6").value);
+        }
+
+        let suma2= omite+cambia+pausas+acento+autocorrección+lineas;
+        document.getElementById("resultados2").innerHTML="La calidad de lectura es de "+suma2+"% sobre el 100%"
+    }
+
+
+        const calcular3=function(){
+        let P1=0;
+        if(document.getElementById("Correcta1").checked){
+            P1=parseFloat( document.getElementById("Correcta1").value);
+
+
+        }else if(document.getElementById("Incorrecta1").checked){
+            P1=parseFloat( document.getElementById("Incorrecta1").value);
+
+        }
+
+        let P2=0;
+        if(document.getElementById("Correcta2").checked){
+            P2=parseFloat( document.getElementById("Correcta2").value);
+
+
+        }else if(document.getElementById("Incorrecta2").checked){
+            P2=parseFloat( document.getElementById("Incorrecta2").value);
+
+        }
+
+        let P3=0;
+        if(document.getElementById("Correcta3").checked){
+            P3=parseFloat( document.getElementById("Correcta3").value);
+
+
+        }else if(document.getElementById("Incorrecta3").checked){
+            P3=parseFloat( document.getElementById("Incorrecta3").value);
+
+        }
+
+        let P4=0;
+        if(document.getElementById("Correcta4").checked){
+            P4=parseFloat( document.getElementById("Correcta4").value);
+
+
+        }else if(document.getElementById("Incorrecta4").checked){
+            P4=parseFloat( document.getElementById("Incorrecta4").value);
+
+        }
+
+        let P5=0;
+        if(document.getElementById("Correcta5").checked){
+            P5=parseFloat( document.getElementById("Correcta5").value);
+
+
+        }else if(document.getElementById("Incorrecta5").checked){
+            P5=parseFloat( document.getElementById("Incorrecta5").value);
+
+        }
+
+
+       
+
+        let suma3= P1+P2+P3+P4+P5;
+        document.getElementById("resultados3").innerHTML="La comprensión de lectura es de "+suma3+"% sobre el 100%"
+
+    }
+
+
+    boton.addEventListener("click",calcular);
+    boton.addEventListener("click",calcular2);
+    boton.addEventListener("click",calcular3);
+    boton.addEventListener("click",escribir);
+
+    
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
